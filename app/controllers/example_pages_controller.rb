@@ -1,7 +1,7 @@
 class ExamplePagesController < ApplicationController
 
   def hello_action
-    render json: {message: "hello!"}
+    render json: {message: "hello people!"}
   end
 
   def hello_world
